@@ -22,7 +22,8 @@ const handlers = {
   'GetRandomStarCraftUnit': function() {
     const ssc = new SeeStarCraft();
     const randomUnit = ssc.getRandomUnit();
-    this.emit(':tellWithCard', randomUnit, 'Random StarCraft Units', randomUnit);
+    const speechOutput = `Your random StarCraft unit is: ${randomUnit}`;
+    this.emit(':tellWithCard', speechOutput, 'Random StarCraft Units', randomUnit);
   },
   'AMAZON.HelpIntent': function() {
     const speechOutput = 'This skill tells you a random StarCraft Brood War unit. Would you like to hear one?';
