@@ -1,0 +1,23 @@
+{
+  "name": "alexa-random-starcraft-units",
+  "version": "1.0.0",
+  "description": "random starcraft units",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doobix/alexa-random-starcraft-units.git"
+  },
+  "author": "doobix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doobix/alexa-random-starcraft-units/issues"
+  },
+  "homepage": "https://github.com/doobix/alexa-random-starcraft-units#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "see-starcraft": "0.0.3"
+  }
+}
