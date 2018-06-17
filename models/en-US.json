@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "random starcraft units",
+          "intents": [
+              {
+                  "name": "AMAZON.FallbackIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "GetRandomStarCraftUnit",
+                  "slots": [],
+                  "samples": [
+                      "launch random starcraft units",
+                      "open random starcraft units",
+                      "get random starcraft units"
+                  ]
+              },
+              {
+                  "name": "AMAZON.YesIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NoIntent",
+                  "samples": []
+              }
+          ],
+          "types": []
+      }
+  }
+}
